@@ -28,3 +28,31 @@
 
 * Type casting allows you to tell TypeScript how a value should be treated when its type cannot be inferred automatically.
 * It is commonly done using the as keyword or angle bracket syntax, helping improve type safety while working with dynamic data.
+
+### 6. What is the difference between package.json and package-lock.json?
+
+* package.json contains project metadata, dependencies, and scripts.
+* package-lock.json stores the exact versions of all installed dependencies, ensuring consistent installations across environments.
+
+### 7. What is the difference between ^ and ~ in dependency versions?
+
+* ^ allows updates to minor and patch versions.
+* ~ allows only patch version updates.
+
+These symbols help manage dependency updates without introducing unexpected changes.
+
+ ### 8.What is the difference between null and undefined?
+
+* undefined indicates that a variable has been declared but not assigned a value.
+* null is an intentional assignment that represents the absence of a value.
+
+### 9. JavaScript Output-Based Questions
+
+The interview also included output-based questions to assess understanding of:
+
+* Closures
+* Hoisting
+* Event Loop
+* Variable Scope
+* this keyword
+* Promise execution order
