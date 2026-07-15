@@ -58,8 +58,26 @@ The interview also included output-based questions to assess understanding of:
 * Promise execution order
 
 ### 10. How did you improve performance in a slow application?
+* Use React.memo to prevent child components from re-rendering when their props hadn't changed.
+* Wrapped expensive calculations, such as filtering and transforming data, in useMemo.
+* Use useCallback for event handlers passed to memoized child components so they received stable function references.
+* Add lazy loading with React.lazy and Suspense for pages that weren't needed during the initial load.
+* Reduce unnecessary API calls by debouncing the search input.
+* Broke large components into smaller reusable components to reduce the rendering scope.
+* Remove unnecessary state updates and ensured immutable state updates.
+
 ### 11.Why did you choose React Query over Redux?
+I chose React Query because most of the data in my application came from APIs. React Query handles fetching, caching, synchronization, background refetching, loading, and error states out of the box. Redux is better suited for managing global client-side state like user preferences, theme, or sidebar state, but it's not optimized for server state.
+
 ### 12. Tell me about a production issue you solved.
+Situation: "We received reports from customers that after updating an order's status, the UI still showed the old status until they refreshed the page."
+
+Task: "I was responsible for identifying why the UI wasn't updating correctly and fixing it without introducing regressions."
+
+Action: "I reproduced the issue in the development environment and used Chrome DevTools and React DevTools to inspect the component state and network requests. The API response contained the updated status, so the backend was working correctly. I found that the component was relying on stale local state that wasn't being updated after the API call. I updated the state management so the UI refreshed with the latest data immediately after a successful update. I also tested related workflows to ensure the fix didn't affect other screens."
+
+Result: "The issue was resolved, users no longer needed to refresh the page to see updates, and support tickets related to that problem stopped."
+
 ### 13. What trade-offs did you consider while designing a feature?
 
 
