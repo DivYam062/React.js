@@ -77,3 +77,32 @@ The interview also included output-based questions to assess understanding of:
 
 ✅ Techniques to improve slow API performance on the server side
 ✅ What is  Parameterized SQL Queries
+ How would you optimize API calls in a React application?
+
+ 📌 ReactJS Questions
+
+✅ Controlled vs Uncontrolled Components
+✅ Ref Forwarding in React 19
+✅ React Portals and their use cases
+✅ Lazy Loading and performance optimization
+✅ Higher-Order Components (HOCs)
+✅ Redux useSelector
+✅ React Routing
+✅ Handling 404 (Page Not Found) routes
+
+📌 JavaScript Questions
+
+✅ What is Debouncing?
+✅ Implement a Debounce function
+✅ Spread Operator with examples
+✅ Find the First Non-Repeated Character in a string
+✅ Hoisting in JavaScript
+
+📌 CSS & Web Concepts
+
+✅ CSS Sprites
+✅ How z-index works
+
+📌 API & Performance
+
+✅ Axios Interceptors and their use cases
