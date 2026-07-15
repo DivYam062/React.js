@@ -56,3 +56,24 @@ The interview also included output-based questions to assess understanding of:
 * Variable Scope
 * this keyword
 * Promise execution order
+
+### 10. How did you improve performance in a slow application?
+### 11.Why did you choose React Query over Redux?
+### 12. Tell me about a production issue you solved.
+### 13. What trade-offs did you consider while designing a feature?
+
+
+✅ React Fiber & Reconciliation
+✅ Building an Infinite Scrolling component for large API datasets
+✅ "useRef" vs "useEffect" and their use cases
+✅ Why Promises (Microtasks) execute before "setTimeout" (Macrotasks)
+✅ Explain Microservices and  Micro Frontends
+✅ Middleware in Express.js
+✅ Creating a Express.js server from scratch and add 2 routes.
+✅ JavaScript event loop output prediction involving:
+- "setTimeout()"
+- "setImmediate()"
+- "process.nextTick()"
+
+✅ Techniques to improve slow API performance on the server side
+✅ What is  Parameterized SQL Queries
